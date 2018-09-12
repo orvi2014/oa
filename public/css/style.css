@@ -41,6 +41,9 @@ span {
   font-size: 75px;
   color: #fc5a03;
 }
+.position{
+  font-size: 15px;
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
@@ -534,7 +537,7 @@ header #fh5co-main-nav > ul li:first-child {
   font-size: 60px;
   display: block;
   margin-bottom: 30px;
-  color: #F03861;
+  color: #fc5a03;
 }
 
 .fhco-hero2 {
