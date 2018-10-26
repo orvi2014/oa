@@ -143,7 +143,7 @@
 							<div class="overlay-section">
 								<div class="desc">
 									<h3>Himadri Chowdhury</h3>
-									<span class="position">Manager</span>
+									<span class="position">Managering Director</span>
 									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
