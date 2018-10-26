@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #F03861;
+  background: #fc5a03;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
@@ -822,10 +822,10 @@ header #fh5co-main-nav > ul li:first-child {
   top: .3em;
   left: 0;
   font-size: 22px;
-  color: #F03861;
+  color: #fc5a03;
 }
 .contact-info li a {
-  color: #F03861;
+  color: #fc5a03;
 }
 
 .form-control {

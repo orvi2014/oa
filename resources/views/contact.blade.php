@@ -6,25 +6,11 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Neos &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>O.a!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
-
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -40,18 +26,23 @@
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
 
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
-	
+	<!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'> -->
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
 	<link rel="stylesheet" href="css/style.css">
 
-
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <!-- or -->
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -64,42 +55,30 @@
 	<header>
 		<div class="container text-center">
 			<div class="fh5co-navbar-brand">
-				<a class="fh5co-logo" href="index.html">Neos</a>
+				<a class="fh5co-logo" href="index.html">O.a!</a>
 			</div>
 			<nav id="fh5co-main-nav" role="navigation">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="work.html">Work</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html" class="active">Contact</a></li>
+					<li><a href="/" class="active">Home</a></li>
+					<li><a href="work">Work</a></li>
+					<li><a href="services">Services</a></li>
+					<li><a href="about">About</a></li>
+					<li><a href="contact">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-	<div class="fh5co-parallax" style="background-image: url(images/hero-1.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
-					<div class="fh5co-intro fh5co-table-cell">
-						<h1 class="text-center">Contact Us</h1>
-						<p>Made with love by the fine folks at <a href="http://freehtml5.co">FreeHTML5.co</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div><!-- end: fh5co-parallax -->
+<!-- end: header -->
 	<div id="fh5co-contact-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 animate-box">
 					<h3>Our Address</h3>
 					<ul class="contact-info">
-						<li><i class="icon-location-pin"></i>198 West 21th Street, Suite 721 New York NY 10016</li>
-						<li><i class="icon-phone2"></i>+ 1235 2355 98</li>
-						<li><i class="icon-mail"></i><a href="#">info@yoursite.com</a></li>
-						<li><i class="icon-globe2"></i><a href="#">www.yoursite.com</a></li>
+						<li><i class="icon-location-pin"></i>Mirpur DOHS, Avenue 3</li>
+						<li><i class="icon-phone2"></i>+ 0168 3754716</li>
+						<li><i class="icon-mail"></i><a href="#">services.oabd@gmail.com</a></li>
+						<li><i class="icon-globe2"></i><a href="#">oabd.herokuapp.com</a></li>
 					</ul>
 				</div>
 				<div class="col-md-8 animate-box">
@@ -129,7 +108,8 @@
 			</div>
 		</div>
 	</div>
-	<div id="map" class="fh5co-map animate-box"></div>
+	<!-- map function
+	<div id="map" class="fh5co-map animate-box"></div>-->
 	<!-- END map -->
 	<footer>
 		<div id="footer" class="fh5co-border-line">
@@ -169,4 +149,3 @@
 
 	</body>
 </html>
-
