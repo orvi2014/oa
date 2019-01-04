@@ -893,3 +893,8 @@ input[type="text"] {
 .fh5co-social-icons{
   color: inherit;
 }
+.tagline{
+  text-align: center;
+  color: #fc5a03;
+  text-transform: uppercase;
+}
