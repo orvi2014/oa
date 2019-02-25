@@ -8,9 +8,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>O.a!</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-		<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-		<meta name="author" content="FREEHTML5.CO" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="OA Team" />
 
 		<!-- Facebook and Twitter integration -->
 		<meta property="og:title" content=""/>
@@ -58,28 +58,7 @@
         		@include ('inc.showcase')
       		@endif
 		@yield('content')
-    	
-
-
-
-		<footer>
-			<div id="footer" class="fh5co-border-line ">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center">
-							<div class="dotted">
-							<p>Copyright 2018 <a href="#">O.a!</a>. All Rights Reserved. <br>Made with <i class="icon-heart3 love"></i> by <a href="" target="_blank"></a> </p>
-							<div>
-							<p class="fh5co-social-icons">
-								<a href="#"><i class="icon-twitter-with-circle"></i></a>
-								<a href="#"><i class="icon-facebook-with-circle"></i></a>
-								<a href="#"><i class="icon-instagram-with-circle"></i></a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
+		@include('inc.footer')
 
 		<!-- jQuery -->
 		<script src="js/jquery.min.js"></script>

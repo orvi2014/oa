@@ -8,8 +8,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>O.a!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
 	<meta name="author" content="FREEHTML5.CO" />
 
   	<!-- Facebook and Twitter integration -->
@@ -55,7 +55,7 @@
 	<header>
 		<div class="container text-center">
 			<div class="fh5co-navbar-brand">
-				<a class="fh5co-logo" href="index.html">O.a!</a>
+				<a class="fh5co-logo" href="/">O.a!</a>
 			</div>
 			<nav id="fh5co-main-nav" role="navigation">
 				<ul>
@@ -69,6 +69,8 @@
 		</div>
 	</header>
 <!-- end: header -->
+
+<!-- Contact Section Starts -->
 	<div id="fh5co-contact-section">
 		<div class="container">
 			<div class="row">
@@ -108,6 +110,7 @@
 			</div>
 		</div>
 	</div>
+	<!-- Contact Section ends -->
 	<!-- map function
 	<div id="map" class="fh5co-map animate-box"></div>-->
 	<!-- END map -->

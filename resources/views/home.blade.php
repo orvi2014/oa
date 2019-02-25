@@ -6,17 +6,18 @@
 			<div class="heading-section text-center">
 				<h2>Who we are</h2>
 			</div>
-			<div class="row about">
+			<!-- <div class="row about">
 				<div class="col-md-10 col-md-offset-1">
 					<img class="img-responsive" src="images/about.jpg" alt="About">
-				</div>
+				</div> -->
 				<div class="col-md-10 col-md-offset-1">
 					<p style="text-align:justify;">O.a is a client driven association. O.a is a team with full of dreams and energy having a mission to accomplish. O.a provides IT solutions to make life easier of our clients with passion, hard work and transparency. Giving O.a the name, a presence, we always aimed to build a win-win scenario while serving our clients. O.a follows pragmatic approach to fight against dynamic problems of the users. Believe in O.a to pave a path with trust throughout the production lifecycle of your dream.</p>
 					<h1 class="tagline">	<strong>Lets Make a Story...</strong>
 					</h1>
 				</div>
 			</div>
-			<div class="heading-section text-center">
+			<!-- Our Team Section Starts -->
+			<!-- <div class="heading-section text-center">
 				<h2>Our Team</h2>
 			</div>
 			<div class="row about">
@@ -72,8 +73,11 @@
 				</div>
 			</div>
 		</div>
-	</div><!-- end fh5co-common-section -->
+	</div>-->
+	<!-- Our Team Section ends -->
+	<!-- end fh5co-common-section -->
 	<!-- end: fh5co-parallax -->
+	<!-- Services Starts -->
 	<div id="fh5co-services-section">
 		<div class="container">
 			<div class="heading-section text-center">
@@ -125,6 +129,126 @@
 							</div>
 						</div>
 					</div>
+					<!--Services End-->
+					<!-- Work Section Starts--->
+	<div id="fh5co-work-section">
+		<div class="container">
+		<div class="heading-section text-center">
+				<h2>Our Work</h2>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4 col-sm-6">
+					<div class="fh5co-grid-work">
+						<div class="work-holder">
+							<a href="#"><img src="images/portfolio_pic1.jpg" alt="Work"></a>
+							<a href="#" class="inner-overlay"><i class="icon-plus"></i></a>
+						</div>
+						<div class="desc">
+							<h3><a href="#">Work Title</a></h3>
+							<span>Video</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="fh5co-grid-work">
+						<div class="work-holder">
+							<a href="#"><img src="images/portfolio_pic2.jpg" alt="Work"></a>
+							<a href="#" class="inner-overlay inner-overlay-2"><i class="icon-plus"></i></a>
+						</div>
+						<div class="desc">
+							<h3><a href="#">Work Title</a></h3>
+							<span>Illustration</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="fh5co-grid-work">
+						<div class="work-holder">
+							<a href="#"><img src="images/portfolio_pic3.jpg" alt="Work"></a>
+							<a href="#" class="inner-overlay inner-overlay-3"><i class="icon-plus"></i></a>
+						</div>
+						<div class="desc">
+							<h3><a href="#">Work Title</a></h3>
+							<span>Web</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="fh5co-grid-work">
+						<div class="work-holder">
+							<a href="#"><img src="images/portfolio_pic4.jpg" alt="Work"></a>
+							<a href="#" class="inner-overlay inner-overlay-4"><i class="icon-plus"></i></a>
+						</div>
+						<div class="desc">
+							<h3><a href="#">Work Title</a></h3>
+							<span>Branding</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="fh5co-grid-work">
+						<div class="work-holder">
+							<a href="#"><img src="images/portfolio_pic5.jpg" alt="Work"></a>
+							<a href="#" class="inner-overlay inner-overlay-5"><i class="icon-plus"></i></a>
+						</div>
+						<div class="desc">
+							<h3><a href="#">Work Title</a></h3>
+							<span>Printing</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="fh5co-grid-work">
+						<div class="work-holder">
+							<a href="#"><img src="images/portfolio_pic6.jpg" alt="Work"></a>
+							<a href="#" class="inner-overlay"><i class="icon-plus"></i></a>
+						</div>
+						<div class="desc">
+							<h3><a href="#">Work Title</a></h3>
+							<span>Video</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="fh5co-grid-work">
+						<div class="work-holder">
+							<a href="#"><img src="images/portfolio_pic7.jpg" alt="Work"></a>
+							<a href="#" class="inner-overlay inner-overlay-2"><i class="icon-plus"></i></a>
+						</div>
+						<div class="desc">
+							<h3><a href="#">Work Title</a></h3>
+							<span>Illustration</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="fh5co-grid-work">
+						<div class="work-holder">
+							<a href="#"><img src="images/portfolio_pic8.jpg" alt="Work"></a>
+							<a href="#" class="inner-overlay inner-overlay-3"><i class="icon-plus"></i></a>
+						</div>
+						<div class="desc">
+							<h3><a href="#">Work Title</a></h3>
+							<span>Print</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="fh5co-grid-work">
+						<div class="work-holder">
+							<a href="#"><img src="images/portfolio_pic9.jpg" alt="Work"></a>
+							<a href="#" class="inner-overlay inner-overlay-4"><i class="icon-plus"></i></a>
+						</div>
+						<div class="desc">
+							<h3><a href="#">Work Title</a></h3>
+							<span>Card</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Work Section Starts--->
 					<!-- <div class="heading-section text-center">
 						<h2>Our Services</h2>
 					</div>
@@ -315,7 +439,54 @@
 				</div>
 			</div>
 		</div>
-	</div><!-- end fh5co-featured-work-section -->
+	</div>
+	<!-- Contact Section Starts -->
+	<div id="fh5co-contact-section">
+	<div class="container-fluid">
+	<div class="heading-section text-center">
+				<h2>Contact Us</h2>
+			</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 animate-box">
+					<h3>Our Address</h3>
+					<ul class="contact-info">
+						<li><i class="icon-location-pin"></i>Mirpur DOHS, Avenue 3</li>
+						<li><i class="icon-phone2"></i>+ 0168 3754716</li>
+						<li><i class="icon-mail"></i><a href="#">services.oabd@gmail.com</a></li>
+						<li><i class="icon-globe2"></i><a href="#">oabd.herokuapp.com</a></li>
+					</ul>
+				</div>
+				<div class="col-md-8 animate-box">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Name">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Email">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<input type="submit" value="Send Message" class="btn btn-primary">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- Contact Section ends -->
+	<!-- end fh5co-featured-work-section -->
 	<!-- pore lagbe
 	<div id="fh5co-blog-section">
 		<div class="container">

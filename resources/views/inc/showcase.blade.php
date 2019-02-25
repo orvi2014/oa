@@ -1,3 +1,4 @@
+<!-- Start fh5co-intro-section -->
 <!-- not this time, bro
 	<div class="owl-carousel owl-carousel1 owl-carousel-fullwidth fh5co-light-arrow animate-box" data-animate-effect="fadeIn">
 		<div class="item"><a href="images/featured-1.jpg" class="image-popup"><img src="images/featured-1.jpg" alt="image"></a></div>
@@ -13,4 +14,4 @@
 			</div>
 		</div>
 	</div>
-	<!-- end fh5co-intro-section -->
+<!-- end fh5co-intro-section -->
