@@ -6,7 +6,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="dotted">
 						<p>Copyright 2018 <a href="#">O.a!</a>. All Rights Reserved. <br>Made with <i class="icon-heart3 love"></i> by <a href="" target="_blank"></a> </p>
-					<div>
+					</div>
 					<p class="fh5co-social-icons">
 					    <a href="#"><i class="icon-twitter-with-circle"></i></a>
 						<a href="#"><i class="icon-facebook-with-circle"></i></a>
