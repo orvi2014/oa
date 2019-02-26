@@ -81,6 +81,7 @@
 			</div>
 		</div>
 	</div><!-- end: fh5co-parallax -->
+	<!-- Work Section Starts--->
 	<div id="fh5co-work-section">
 		<div class="container">
 			<div class="row text-center">
@@ -195,6 +196,7 @@
 			</div>
 		</div>
 	</div>
+	<!-- Work Section Starts--->
 	<footer>
 		<div id="footer" class="fh5co-border-line">
 			<div class="container">
