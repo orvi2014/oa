@@ -342,7 +342,7 @@
 <div id="fh5co-featured-work-section">
 	<div class="container-fluid">
 		<div class="heading-section text-center">
-			<h2>Our Projects</h2>
+			<h2>Our Clients</h2>
 		</div>
 		<div class="owl-carousel owl-carousel2">
 			<div class="item">
@@ -488,6 +488,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 </div>
 <!-- Contact Section ends -->
 	<!-- end fh5co-featured-work-section -->

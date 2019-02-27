@@ -116,10 +116,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,
-#fh5co-common-section, #fh5co-blog-section, #footer, #fh5co-contact-section,
+#fh5co-common-section, #fh5co-blog-section, #fh5co-contact-section,
 #fh5co-work-section {
   padding-bottom: 5em;
   padding-top: 4.5em;
+}
+#footer{
+  padding-bottom: 7px;
 }
 
 header {
