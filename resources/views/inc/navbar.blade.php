@@ -3,7 +3,7 @@
 				<div class="fh5co-navbar-brand">
 					<a class="fh5co-logo" href="index.html">O.a!</a>
 				</div>
-				<div class= "headerNav" id="myHeader">
+				<div class= "headerNav" id="oaHeader">
 				<nav id="fh5co-main-nav" role="navigation">
 					<ul>
 						<li><a href="/" class="{{Request::is('/') ? 'active' : ''}}">Home</a></li>

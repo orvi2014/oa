@@ -1,6 +1,6 @@
 window.onscroll = function() {hoverFunction()};
 
-var header = document.getElementById("Header");
+var header = document.getElementById("oaHeader");
 var sticky = header.offsetTop;
 
 function hoverFunction() {
