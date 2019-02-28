@@ -9,7 +9,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h2>Simplicity is the best <span style="animation:fading 3s infinite;">Design</span></h2>
+					<h2 class="dynamicText">Simplicity is the best</h2>
+					<ul class="word-slider">
+					<li>Engaging</li>
+					<li>Delightful</li>
+					<li>Friendly</li>
+					<li>Engaging</li>
+					</ul>
 				</div>
 			</div>
 		</div>

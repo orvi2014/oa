@@ -339,112 +339,13 @@
 		</div>
 	</div>-->
 <!-- Our Project section starts -->
-<div id="fh5co-featured-work-section">
-	<div class="container-fluid">
-		<div class="heading-section text-center">
-			<h2>Our Projects</h2>
-		</div>
-		<div class="owl-carousel owl-carousel2">
-			<div class="item">
-				<!-- <a href="#" class="image-popup"> -->
-				<img src="images/portfolio_pic1.jpg" alt="image">
-				<a href="#" class="pop-up-overlay text-center">
-					<div class="desc">
-					<h3>Camera</h3>
-						<span>Video</span>
-					</div>
-				</a>
-			</div>
-			<div class="item">
-				<img src="images/portfolio_pic2.jpg" alt="image">
-					<a href="#" class="pop-up-overlay pop-up-overlay-color-2 text-center">
-						<div class="desc">
-							<h3>Workstation</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-			</div>
-			<div class="item">
-				<!-- <a href="#" class="image-popup"> -->
-				<img src="images/portfolio_pic3.jpg" alt="image">
-				<!-- </a> -->
-					<a href="#" class="pop-up-overlay pop-up-overlay-color-3 text-center">
-						<div class="desc">
-							<h3>Mobile Phone</h3>
-							<span>Web</span>
-						</div>
-					</a>
-				</div>
-			<div class="item">
-				<!-- <a href="#" class="image-popup"> -->
-				<img src="images/portfolio_pic4.jpg" alt="image">
-				<!-- </a> -->
-					<a href="#" class="pop-up-overlay pop-up-overlay-color-4 text-center">
-						<div class="desc">
-							<h3>Camera Lens</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-				</div>
-			<div class="item">
-				<!-- <a href="#" class="image-popup"> -->
-				<img src="images/portfolio_pic5.jpg" alt="image">
-				<!-- </a> -->
-					<a href="#" class="pop-up-overlay text-center">
-						<div class="desc">
-							<h3>Card</h3>
-							<span>Card</span>
-						</div>
-					</a>
-			</div>
-			<div class="item">
-					<!-- <a href="#" class="image-popup"> -->
-					<img src="images/portfolio_pic6.jpg" alt="image">
-					<!-- </a> -->
-					<a href="#" class="pop-up-overlay pop-up-overlay-color-2 text-center">
-						<div class="desc">
-							<h3>Shoes</h3>
-							<span>Brand</span>
-						</div>
-					</a>
-			</div>
-			<div class="item">
-					<!-- <a href="#" class="image-popup"> -->
-					<img src="images/portfolio_pic7.jpg" alt="image">
-					<!-- </a> -->
-					<a href="#" class="pop-up-overlay text-center">
-						<div class="desc">
-							<h3>Magazine</h3>
-							<span>Web</span>
-						</div>
-					</a>
-			</div>
-			<div class="item">
-					<!-- <a href="#" class="image-popup"> -->
-					<img src="images/portfolio_pic8.jpg" alt="image">
-					<!-- </a> -->
-					<a href="#" class="pop-up-overlay pop-up-overlay-color-3 text-center">
-						<div class="desc">
-							<h3>VCard</h3>
-							<span>Card</span>
-						</div>
-					</a>
-			</div>
-			<div class="item">
-					<!-- <a href="#" class="image-popup"> -->
-					<img src="images/portfolio_pic9.jpg" alt="image">
-					<!-- </a> -->
-					<a href="#" class="pop-up-overlay pop-up-overlay-color-4 text-center">
-						<div class="desc">
-							<h3>Paper</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<div class="w3-content w3-display-container">
+<img class="mySlides w3-animate-fading" src="img_01.jpg">
+<img class="mySlides w3-animate-fading" src="img_02.jpg">
+<img class="mySlides w3-animate-fading" src="img_03.jpg">
+<img class="mySlides w3-animate-fading" src="img_04.jpg">
+  </div>
+
 <!-- Contact Section Starts -->
 <div id="fh5co-contact-section">
 	<div class="container-fluid">
@@ -462,8 +363,11 @@
 						<li><i class="icon-globe2"></i><a href="#">oabd.herokuapp.com</a></li>
 					</ul>
 				</div>
+				
 				<div class="col-md-8 animate-box">
 					<div class="row">
+					<form method="post" action="{{url('sendemail/send')}}">
+   					 {{ csrf_field() }}
 						<div class="col-md-6">
 							<div class="form-group">
 								<input type="text" class="form-control" placeholder="Name">
@@ -484,6 +388,7 @@
 							<input type="submit" value="Send Message" class="btn btn-primary">
 						</div>
 					</div>
+					</form>
 				</div>
 			</div>
 		</div>
