@@ -1,4 +1,3 @@
-<!-- footer starts --->
 <footer>
 	<div id="footer" class="fh5co-border-line ">
 		<div class="container">

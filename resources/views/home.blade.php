@@ -118,14 +118,14 @@
 					<div class="services-grid">
 						<i class="icon-gears"></i>
 						<h3>Search Engine Optimization</h3>
-						<p></p>
+						<p>Your website can have a in house developer team but O.A comes to the aid of serving the utmost effective SEO strategy providing solid keyword and market research guide. O.A reassures likely-looking SERP ranking of your website by maintaining quality content, fit keyword, mobile friendly design</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="services-grid">
 						<i class="icon-piechart"></i>
 						<h3>Strategy & Analytics</h3>
-						<p>We want to help you succeed.</br> In order to do that we ask a lot of questions and make sure our strategy meets the trajectory of your organization.</p>
+						<p>O.A! works closely with clients to develop robust corporate and business unit strategies while building an idea or organization. We provide industry-specific strategy consulting for fundamental strategic challenges such as market assessment, business model, strategic planning and activation, and alliance management</p>
 					</div>
 				</div>
 			</div>
@@ -342,12 +342,16 @@
 <div id="fh5co-featured-work-section">
 	<div class="container-fluid">
 		<div class="heading-section text-center">
+<<<<<<< HEAD
 			<h2>Our Clients</h2>
+=======
+			<h2>Client Story</h2>
+>>>>>>> bf9cdd02f4f26de781ff0ffec0dbfab9a8f81b74
 		</div>
 		<div class="owl-carousel owl-carousel2">
 			<div class="item">
 				<!-- <a href="#" class="image-popup"> -->
-				<img src="images/portfolio_pic1.jpg" alt="image">
+				<img src="images/client.png" alt="image">
 				<a href="#" class="pop-up-overlay text-center">
 					<div class="desc">
 					<h3>Camera</h3>
@@ -462,8 +466,11 @@
 						<li><i class="icon-globe2"></i><a href="#">oabd.herokuapp.com</a></li>
 					</ul>
 				</div>
+				
 				<div class="col-md-8 animate-box">
 					<div class="row">
+					<form method="post" action="{{url('sendemail/send')}}">
+   					 {{ csrf_field() }}
 						<div class="col-md-6">
 							<div class="form-group">
 								<input type="text" class="form-control" placeholder="Name">
@@ -484,6 +491,7 @@
 							<input type="submit" value="Send Message" class="btn btn-primary">
 						</div>
 					</div>
+					</form>
 				</div>
 			</div>
 		</div>
