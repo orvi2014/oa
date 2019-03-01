@@ -1,7 +1,7 @@
 <header>
 			<div class="container text-center">
 				<div class="fh5co-navbar-brand">
-					<a class="fh5co-logo" href="index.html">O.a!</a>
+					<a class="fh5co-logo" href="#fh5co-common-section">O.a!</a>
 				</div>
 				<nav id="fh5co-main-nav" role="navigation">
 					<ul>
