@@ -465,29 +465,28 @@
 				
 				<div class="col-md-8 animate-box">
 					<div class="row">
-					<form method="post" action="{{url('sendemail/send')}}">
-   					 {{ csrf_field() }}
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Name">
-							</div>
-						</div>
+					@if(Session::has('flash_message'))
+						<div class="alert alert-success">{{ Session::get('flash_message') }}</div>
+					@endif
+				<form method="POST" action="{{url ('sendEmail')}}">
+					{{ csrf_field() }}
 					<div class="col-md-6">
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Email">
+							<input name="name" type="text" class="form-control" placeholder="Name">
 						</div>
 					</div>
-					<div class="col-md-12">
+					<div class="col-md-6">
 						<div class="form-group">
-							<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+							<input name="email" type="text" class="form-control" placeholder="Email">
 						</div>
 					</div>
-					<div class="col-md-12">
+					<div class="col-md-6">
 						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary">
+							<textarea name="message" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
 						</div>
 					</div>
-					</form>
+					<button class="btn btn-primary">Send Message</button>
+				</form>
 				</div>
 			</div>
 		</div>
