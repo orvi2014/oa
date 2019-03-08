@@ -10,8 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Http\Request;
+use App\Mail\ContactMail;
+use Illuminate\Support\Facades\Mail;
 
 Route::get('/', 'PageController@getHome');
 Route::get('/about', 'PageController@getAbout');
 Route::get('/contact', 'PageController@getContact');
 Route::get('/work', 'PageController@getWork');
+Route::post('/sendEmail', 'PageController@sendEmail');
