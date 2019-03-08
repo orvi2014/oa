@@ -80,6 +80,16 @@
 		<!-- Main JS (Do not remove) -->
 		<script src="js/main.js"></script>
 		<script src="js/hover.js"></script>
+		<script>
+			    function navigationMobile() {
+        			var x = document.getElementById("fh5co-main-nav");
+        				if (x.className === "fh5co-main-nav") {
+            					x.className += " responsive";
+        					} else {
+            				x.className = "fh5co-main-nav";
+        				}
+   				}	
+		</script>
 
 	</body>
 </html>

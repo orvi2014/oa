@@ -342,11 +342,7 @@
 <div id="fh5co-featured-work-section">
 	<div class="container-fluid">
 		<div class="heading-section text-center">
-<<<<<<< HEAD
-			<h2>Our Clients</h2>
-=======
 			<h2>Client Story</h2>
->>>>>>> bf9cdd02f4f26de781ff0ffec0dbfab9a8f81b74
 		</div>
 		<div class="owl-carousel owl-carousel2">
 			<div class="item">
