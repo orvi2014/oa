@@ -31,10 +31,15 @@ a:hover {
 
 p, span {
   margin-bottom: 1.5em;
-  font-size: 20px;
+  font-size: 16px;
   color: #727272;
   font-weight: 300;
   font-family: "Roboto", Arial, serif;
+  line-height: 1.75;
+  text-align: justify;
+}
+#fh5co-common-section p{
+  font-size: 20px;
 }
 
 span {
@@ -178,14 +183,22 @@ header #fh5co-main-nav > ul li a {
 .sticky {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
+  z-index: 10000000;
 }
 .dynamicText{
   display: inline;
+  margin: 0;
+}
+.dynamicText_container{
+  display: flex !important;
+  justify-content: center;
 }
 .word-slider{
-  height: 1em;
-  line-height: 1em;
+  height: 1.2em;
+  line-height: 1.2em;
   margin:  0 .5em;
   overflow: hidden;
   list-style-type: none;
@@ -200,6 +213,9 @@ header #fh5co-main-nav > ul li a {
   -o-animation: word-slider 8s ease-in-out infinite;
   animation: word-slider 8s ease-in-out infinite;
 }
+
+
+
   @keyframes word-slider{
     0%{
       -webkit-transform: translate3D(0,0,0);
@@ -280,8 +296,9 @@ header #fh5co-main-nav > ul li:first-child {
 #fh5co-intro-section h2 {
   font-size: 50px;
   line-height: 1.5em;
-  margin-bottom: 20px;
+  margin: auto 0;
 }
+
 @media screen and (max-width: 480px) {
   #fh5co-intro-section h2 {
     font-size: 30px;
@@ -984,4 +1001,5 @@ input[type="text"] {
   text-align: center;
   color: #fc5a03;
   text-transform: uppercase;
+  margin-top: 50px;
 }

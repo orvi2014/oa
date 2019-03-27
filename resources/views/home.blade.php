@@ -12,8 +12,7 @@
 				</div> -->
 				<div class="col-md-10 col-md-offset-1">
 					<p style="text-align:justify;">O.a is a client driven association. O.a is a team with full of dreams and energy having a mission to accomplish. O.a provides IT solutions to make life easier of our clients with passion, hard work and transparency. Giving O.a the name, a presence, we always aimed to build a win-win scenario while serving our clients. O.a follows pragmatic approach to fight against dynamic problems of the users. Believe in O.a to pave a path with trust throughout the production lifecycle of your dream.</p>
-					<h1 class="tagline">	<strong>Lets Make a Story...</strong>
-					</h1>
+					<h2 class="tagline">	<strong>Lets Make a Story...</strong>	</h2>
 				</div>
 			</div>
 		</div>
