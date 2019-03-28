@@ -96,23 +96,24 @@
 					<div class="services-grid">
 						<i class="icon-html-five2"></i>
 						<h3>Web Development</h3>
-						<p>We design & develop website for the user while having a business objective in mind. We employ best practice web design principles to build websites that are aesthetically pleasing.</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="services-grid">
-						<i class="icon-stats-bars2"></i>
-						<h3>Digital Marketing</h3>
-						<p>Our senior strategy consultants will help you refine your target market and their needs, clearly articulate your value proposition, and then identify the right marketing channels to reach your target customers.</p>
+						<p>Maintaining web design principles and best practices, we design & develop aesthetic websites for you while having a business objective in mind.</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="services-grid">
 						<i class="icon-mobile"></i>
 						<h3>Mobile Optimization</h3>
-						<p>Designing and coding for mobile is essential in our world today. Google penalizes website that haven’t made the jump. Every website we build is responsive, period.</p>
+						<p>Mobile currently accounts for half of all global web pages served and this number is increasing. We can build fully responsive websites for you</p>
 					</div>
 				</div>
+				<div class="col-md-4">
+					<div class="services-grid">
+						<i class="icon-stats-bars2"></i>
+						<h3>Digital Marketing</h3>
+						<p>Our senior strategy consultants can help you refine your target market and their needs, clearly articulate your value proposition, and then identify the right marketing channels to reach your target customers.</p>
+					</div>
+				</div>
+			
 				<div class="col-md-4">
 					<div class="services-grid">
 						<i class="icon-gears"></i>
