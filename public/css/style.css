@@ -129,9 +129,8 @@ h1, h2, h3, h4, h5, h6 {
 
 header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,
 #fh5co-common-section, #fh5co-blog-section, #fh5co-contact-section,
-#fh5co-work-section {
-  padding-bottom: 5em;
-  padding-top: 4.5em;
+#fh5co-work-section { 
+  padding-top: 4em;
 }
 
 header {
@@ -923,17 +922,18 @@ header #fh5co-main-nav > ul li:first-child {
   padding: 0;
 }
 .contact-info li {
-  list-style: none;
-  margin: 0 0 20px 0;
-  position: relative;
-  padding-left: 40px;
+  list-style: none;  
+  display: flex;
+  margin-bottom: 10px;
 }
-.contact-info li i {
-  position: absolute;
-  top: .3em;
-  left: 0;
+.contact-info li p{
+  padding-left: 40px;
+  margin: 0%;
+}
+.contact-info i {
   font-size: 22px;
   color: #fc5a03;
+  margin: 0;
 }
 .contact-info li a {
   color: #fc5a03;
@@ -984,7 +984,7 @@ input[type="text"] {
   padding-left: 10px;
 }
 .fh5co-social-icons{
-  font-size: 18px;
+  font-size: 20px;
   margin: auto 0;
   padding-left: 10px;
 }
