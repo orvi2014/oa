@@ -143,72 +143,60 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="fh5co-grid-work">
                         <div class="work-holder">
-                            <a href="#"><img src="{{url('/img/orvi.jpg')}}" alt="Work"></a>
+                            <a href="#"><img src="{{url('/img/OAERP.png')}}" alt="Work"></a>
                             <a href="#" class="inner-overlay"><i class="icon-plus"></i></a>
                         </div>
                         <div class="desc">
-                            <h3><a href="#">Work Title</a></h3>
-                            <span>Video</span>
+                            <h3><a href="#">ERP Software</a></h3>
+                            <span></span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="fh5co-grid-work">
                         <div class="work-holder">
-                            <a href="#"><img src="images/portfolio_pic2.jpg" alt="Work"></a>
+                            <a href="#"><img src="{{url('/img/library.png')}}" alt="Work"></a>
                             <a href="#" class="inner-overlay inner-overlay-2"><i class="icon-plus"></i></a>
                         </div>
                         <div class="desc">
-                            <h3><a href="#">Work Title</a></h3>
-                            <span>Illustration</span>
+                            <h3><a href="#">Library Management Software</a></h3>
+                            <span></span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="fh5co-grid-work">
                         <div class="work-holder">
-                            <a href="#"><img src="images/portfolio_pic3.jpg" alt="Work"></a>
+                            <a href="#"><img src="{{url('/img/Screen Shot 2019-03-27 at 11.06.20 PM.png')}}" alt="Work"></a>
                             <a href="#" class="inner-overlay inner-overlay-3"><i class="icon-plus"></i></a>
                         </div>
                         <div class="desc">
-                            <h3><a href="#">Work Title</a></h3>
-                            <span>Web</span>
+                            <h3><a href="#">Inventory Management System</a></h3>
+                            <span></span>
                         </div>
                     </div>
                 </div>
-                {{--<div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6">
 				<div class="fh5co-grid-work">
 					<div class="work-holder">
-						<a href="#"><img src="images/portfolio_pic4.jpg" alt="Work"></a>
+						<a href="#"><img src="{{url('/img/Screenshot_2019-03-26 Demo LMS -.png')}}" alt="Work"></a>
 						<a href="#" class="inner-overlay inner-overlay-4"><i class="icon-plus"></i></a>
 					</div>
 					<div class="desc">
-						<h3><a href="#">Work Title</a></h3>
-						<span>Branding</span>
+						<h3><a href="#">E-Learning Platform</a></h3>
+						<span></span>
 					</div>
 				</div>
 			</div>
-			 <div class="col-md-4 col-sm-6">
+			 {{--<div class="col-md-4 col-sm-6">
 				<div class="fh5co-grid-work">
 					<div class="work-holder">
-						<a href="#"><img src="images/portfolio_pic5.jpg" alt="Work"></a>
+						<a href="#"><img src="{{url('/img/OAERP.png')}}}" alt="Work"></a>
 						<a href="#" class="inner-overlay inner-overlay-5"><i class="icon-plus"></i></a>
 					</div>
 					<div class="desc">
 						<h3><a href="#">Work Title</a></h3>
 						<span>Printing</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<div class="fh5co-grid-work">
-					<div class="work-holder">
-						<a href="#"><img src="images/portfolio_pic6.jpg" alt="Work"></a>
-						<a href="#" class="inner-overlay"><i class="icon-plus"></i></a>
-					</div>
-					<div class="desc">
-						<h3><a href="#">Work Title</a></h3>
-						<span>Video</span>
 					</div>
 				</div>
 			</div>
@@ -347,99 +335,24 @@
             <div class="owl-carousel owl-carousel2">
                 <div class="item">
                     <!-- <a href="#" class="image-popup"> -->
-                    <img src="images/client.png" alt="image">
-                    <a href="#" class="pop-up-overlay text-center">
-                        <div class="desc">
-                            <h3>Camera</h3>
-                            <span>Video</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="item">
-                    <img src="images/portfolio_pic2.jpg" alt="image">
-                    <a href="#" class="pop-up-overlay pop-up-overlay-color-2 text-center">
-                        <div class="desc">
-                            <h3>Workstation</h3>
-                            <span>Illustration</span>
-                        </div>
-                    </a>
+                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{url('/img/square_banner.jpg')}}" alt="image"/>
+                    <!-- </a> -->
+                   
                 </div>
                 <div class="item">
                     <!-- <a href="#" class="image-popup"> -->
-                    <img src="images/portfolio_pic3.jpg" alt="image">
+                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{url('/img/army.jpg')}}" alt="image"/>
                     <!-- </a> -->
-                    <a href="#" class="pop-up-overlay pop-up-overlay-color-3 text-center">
-                        <div class="desc">
-                            <h3>Mobile Phone</h3>
-                            <span>Web</span>
-                        </div>
-                    </a>
                 </div>
                 <div class="item">
                     <!-- <a href="#" class="image-popup"> -->
-                    <img src="images/portfolio_pic4.jpg" alt="image">
+                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{url('/img/shahmiran_logo.png')}}" alt="image"/>
                     <!-- </a> -->
-                    <a href="#" class="pop-up-overlay pop-up-overlay-color-4 text-center">
-                        <div class="desc">
-                            <h3>Camera Lens</h3>
-                            <span>Illustration</span>
-                        </div>
-                    </a>
                 </div>
                 <div class="item">
                     <!-- <a href="#" class="image-popup"> -->
-                    <img src="images/portfolio_pic5.jpg" alt="image">
+                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{url('/img/meridian_logo.jpeg')}}" alt="image"/>
                     <!-- </a> -->
-                    <a href="#" class="pop-up-overlay text-center">
-                        <div class="desc">
-                            <h3>Card</h3>
-                            <span>Card</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="item">
-                    <!-- <a href="#" class="image-popup"> -->
-                    <img src="images/portfolio_pic6.jpg" alt="image">
-                    <!-- </a> -->
-                    <a href="#" class="pop-up-overlay pop-up-overlay-color-2 text-center">
-                        <div class="desc">
-                            <h3>Shoes</h3>
-                            <span>Brand</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="item">
-                    <!-- <a href="#" class="image-popup"> -->
-                    <img src="images/portfolio_pic7.jpg" alt="image">
-                    <!-- </a> -->
-                    <a href="#" class="pop-up-overlay text-center">
-                        <div class="desc">
-                            <h3>Magazine</h3>
-                            <span>Web</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="item">
-                    <!-- <a href="#" class="image-popup"> -->
-                    <img src="images/portfolio_pic8.jpg" alt="image">
-                    <!-- </a> -->
-                    <a href="#" class="pop-up-overlay pop-up-overlay-color-3 text-center">
-                        <div class="desc">
-                            <h3>VCard</h3>
-                            <span>Card</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="item">
-                    <!-- <a href="#" class="image-popup"> -->
-                    <img src="images/portfolio_pic9.jpg" alt="image">
-                    <!-- </a> -->
-                    <a href="#" class="pop-up-overlay pop-up-overlay-color-4 text-center">
-                        <div class="desc">
-                            <h3>Paper</h3>
-                            <span>Illustration</span>
-                        </div>
-                    </a>
                 </div>
             </div>
         </div>
