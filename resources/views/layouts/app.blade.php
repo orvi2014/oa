@@ -82,5 +82,7 @@
 		<script src="{{ asset('public/js/main.js') }}"></script>
 		<script src="{{ asset('public/js/hover.js') }}"></script>
 
+		{{-- js for scolling effect --}}
+		<script src="{{ asset('public/js/style.js') }}"></script>
 	</body>
 </html>
