@@ -31,10 +31,15 @@ a:hover {
 
 p, span {
   margin-bottom: 1.5em;
-  font-size: 20px;
+  font-size: 16px;
   color: #727272;
   font-weight: 300;
   font-family: "Roboto", Arial, serif;
+  line-height: 1.75;
+  text-align: justify;
+}
+#fh5co-common-section p{
+  font-size: 20px;
 }
 
 span {
@@ -114,12 +119,18 @@ h1, h2, h3, h4, h5, h6 {
   height: 3px;
   background: #fc5a03;
 }
+.footer_holder{
+  display: flex;
+  justify-content: space-between;
+}
+.love{
+  color:red;
+}
 
 header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,
-#fh5co-common-section, #fh5co-blog-section, #footer, #fh5co-contact-section,
-#fh5co-work-section {
-  padding-bottom: 5em;
-  padding-top: 4.5em;
+#fh5co-common-section, #fh5co-blog-section, #fh5co-contact-section,
+#fh5co-work-section { 
+  padding-top: 4em;
 }
 
 header {
@@ -178,14 +189,22 @@ header #fh5co-main-nav > ul li a {
 .sticky {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
+  z-index: 10000000;
 }
 .dynamicText{
   display: inline;
+  margin: 0;
+}
+.dynamicText_container{
+  display: flex !important;
+  justify-content: center;
 }
 .word-slider{
-  height: 1em;
-  line-height: 1em;
+  height: 1.2em;
+  line-height: 1.2em;
   margin:  0 .5em;
   overflow: hidden;
   list-style-type: none;
@@ -200,6 +219,9 @@ header #fh5co-main-nav > ul li a {
   -o-animation: word-slider 8s ease-in-out infinite;
   animation: word-slider 8s ease-in-out infinite;
 }
+
+
+
   @keyframes word-slider{
     0%{
       -webkit-transform: translate3D(0,0,0);
@@ -280,8 +302,9 @@ header #fh5co-main-nav > ul li:first-child {
 #fh5co-intro-section h2 {
   font-size: 50px;
   line-height: 1.5em;
-  margin-bottom: 20px;
+  margin: auto 0;
 }
+
 @media screen and (max-width: 480px) {
   #fh5co-intro-section h2 {
     font-size: 30px;
@@ -899,17 +922,18 @@ header #fh5co-main-nav > ul li:first-child {
   padding: 0;
 }
 .contact-info li {
-  list-style: none;
-  margin: 0 0 20px 0;
-  position: relative;
-  padding-left: 40px;
+  list-style: none;  
+  display: flex;
+  margin-bottom: 10px;
 }
-.contact-info li i {
-  position: absolute;
-  top: .3em;
-  left: 0;
+.contact-info li p{
+  padding-left: 40px;
+  margin: 0%;
+}
+.contact-info i {
   font-size: 22px;
   color: #fc5a03;
+  margin: 0;
 }
 .contact-info li a {
   color: #fc5a03;
@@ -956,10 +980,20 @@ input[type="text"] {
 }
 
 #footer p {
-  font-size: 16px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.fh5co-social-icons{
+  font-size: 20px;
+  margin: auto 0;
+  padding-left: 10px;
 }
 #footer p:last-child {
   margin-bottom: 0;
+  font-size:14px ;
+}
+#footer .social_holder{
+  display: flex; 
 }
 #footer p.fh5co-social-icons a:hover, #footer p.fh5co-social-icons a:focus {
   text-decoration: none !important;
@@ -984,4 +1018,29 @@ input[type="text"] {
   text-align: center;
   color: #fc5a03;
   text-transform: uppercase;
+  margin-top: 50px;
 }
+
+/* 
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+ }

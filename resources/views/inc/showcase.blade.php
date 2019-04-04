@@ -8,13 +8,13 @@
 <div id="fh5co-intro-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 text-center">
+				<div class="col-md-12 text-center dynamicText_container">
 					<h2 class="dynamicText">Simplicity is the best</h2>
 					<ul class="word-slider">
-					<li>Engaging</li>
-					<li>Delightful</li>
-					<li>Friendly</li>
-					<li>Engaging</li>
+						<li>Engaging</li>
+						<li>Delightful</li>
+						<li>Friendly</li>
+						<li>Engaging</li>
 					</ul>
 				</div>
 			</div>
