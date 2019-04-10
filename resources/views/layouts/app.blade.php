@@ -30,16 +30,16 @@
 
 		<!-- Animate.css -->
 		
-		<link rel="stylesheet" href="{{ asset('public/css/animate.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
 		<!-- Icomoon Icon Fonts-->
-		<link rel="stylesheet" href="{{ asset('public/css/icomoon.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/icomoon.css') }}">
 		<!-- Bootstrap  -->
-		<link rel="stylesheet" href="{{ asset('public/css/bootstrap.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
 		<!-- Owl Carousel -->
-		<link rel="stylesheet" href="{{ asset('public/css/owl.carousel.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('public/css/owl.theme.default.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
 
-		<link rel="stylesheet" href="{{ asset('public/css/style.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
