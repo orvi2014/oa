@@ -155,7 +155,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="fh5co-grid-work">
                         <div class="work-holder">
-                            <a href="#"><img src="{{url('/img/library.png')}}" alt="Work"></a>
+                            <a href="#"><img src="{{url('/img/library.jpg')}}" alt="Work"></a>
                             <a href="#" class="inner-overlay inner-overlay-2"><i class="icon-plus"></i></a>
                         </div>
                         <div class="desc">
@@ -335,7 +335,7 @@
             <div class="owl-carousel owl-carousel2">
                 <div class="item">
                     <!-- <a href="#" class="image-popup"> -->
-                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{ asset('public/img/square_banner.jpg') }}" alt="image"/>
+                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{ url('public/img/square_banner.jpg') }}" alt="image"/>
                     <!-- </a> -->
                    
                 </div>
@@ -346,12 +346,12 @@
                 </div>
                 <div class="item">
                     <!-- <a href="#" class="image-popup"> -->
-                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{url('/img/shahmiran_logo.png')}}" alt="image"/>
+                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{url('public/img/shahmiran_logo.png')}}" alt="image"/>
                     <!-- </a> -->
                 </div>
                 <div class="item">
                     <!-- <a href="#" class="image-popup"> -->
-                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{url('/img/meridian_logo.jpeg')}}" alt="image"/>
+                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{url('public/img/meridian_logo.jpeg')}}" alt="image"/>
                     <!-- </a> -->
                 </div>
             </div>
