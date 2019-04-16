@@ -66,23 +66,23 @@
 		@include('inc.footer')
 
 		<!-- jQuery -->
-		<script src="{{ asset('public/js/jquery.min.js') }}"></script>
+		<script src="{{ asset('js/jquery.min.js') }}"></script>
 		<!-- jQuery Easing -->
-		<script src="{{ asset('public/js/jquery.easing.1.3.js') }}"></script>
+		<script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
 		<!-- Bootstrap -->
-		<script src="{{ asset('public/js/bootstrap.min.js') }}"></script>
+		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
 		<!-- Waypoints -->
-		<script src="{{ asset('public/js/jquery.waypoints.min.js') }}"></script>
+		<script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
 		<!-- Owl carousel -->
-		<script src="{{ asset('public/js/owl.carousel.min.js') }}"></script>
+		<script src="{{ asset('js/owl.carousel.min.js') }}"></script>
 		<!-- Stellar -->
-		<script src="{{ asset('public/js/jquery.stellar.min.js') }}"></script>
+		<script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
 
 		<!-- Main JS (Do not remove) -->
-		<script src="{{ asset('public/js/main.js') }}"></script>
-		<script src="{{ asset('public/js/hover.js') }}"></script>
+		<script src="{{ asset('js/main.js') }}"></script>
+		<script src="{{ asset('js/hover.js') }}"></script>
 
 		{{-- js for scolling effect --}}
-		<script src="{{ asset('public/js/style.js') }}"></script>
+		<script src="{{ asset('js/style.js') }}"></script>
 	</body>
 </html>
