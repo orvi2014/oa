@@ -29,17 +29,16 @@
 		<!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'> -->
 
 		<!-- Animate.css -->
-		
-		<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
+		<link rel="stylesheet" href="css/animate.css">
 		<!-- Icomoon Icon Fonts-->
-		<link rel="stylesheet" href="{{ asset('css/icomoon.css') }}">
+		<link rel="stylesheet" href="css/icomoon.css">
 		<!-- Bootstrap  -->
-		<link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+		<link rel="stylesheet" href="css/bootstrap.css">
 		<!-- Owl Carousel -->
-		<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-		<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+		<link rel="stylesheet" href="css/style.css">
 
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -66,23 +65,21 @@
 		@include('inc.footer')
 
 		<!-- jQuery -->
-		<script src="{{ asset('public/js/jquery.min.js') }}"></script>
+		<script src="js/jquery.min.js"></script>
 		<!-- jQuery Easing -->
-		<script src="{{ asset('public/js/jquery.easing.1.3.js') }}"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
 		<!-- Bootstrap -->
-		<script src="{{ asset('public/js/bootstrap.min.js') }}"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<!-- Waypoints -->
-		<script src="{{ asset('public/js/jquery.waypoints.min.js') }}"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
 		<!-- Owl carousel -->
-		<script src="{{ asset('public/js/owl.carousel.min.js') }}"></script>
+		<script src="js/owl.carousel.min.js"></script>
 		<!-- Stellar -->
-		<script src="{{ asset('public/js/jquery.stellar.min.js') }}"></script>
+		<script src="js/jquery.stellar.min.js"></script>
 
 		<!-- Main JS (Do not remove) -->
-		<script src="{{ asset('public/js/main.js') }}"></script>
-		<script src="{{ asset('public/js/hover.js') }}"></script>
+		<script src="js/main.js"></script>
+		<script src="js/hover.js"></script>
 
-		{{-- js for scolling effect --}}
-		<script src="{{ asset('public/js/style.js') }}"></script>
 	</body>
 </html>
