@@ -48,7 +48,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<!-- or -->
 		<!-- Modernizr JS -->
-		<script src="js/modernizr-2.6.2.min.js"></script>
+		<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 		<!-- FOR IE9 below -->
 		<!--[if lt IE 9]>
 		<script src="js/respond.min.js"></script>
