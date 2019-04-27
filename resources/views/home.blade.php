@@ -2,21 +2,26 @@
 @section('content')
 <!--Home-->
 <div id="fh5co-common-section">
-    <div class="container fadeIn">
-        <div class="heading-section text-center">
-            <h2>Who we are</h2>
-        </div>
-        <!-- <div class="row about">
+	<div class="container fadeIn">
+		<div class="heading-section text-center">
+			<h2>Who we are</h2>
+		</div>
+		<!-- <div class="row about">
 				<div class="col-md-10 col-md-offset-1">
 					<img class="img-responsive" src="images/about.jpg" alt="About">
 				</div> -->
-        <div class="col-md-10 col-md-offset-1">
-            <p style="text-align:justify;">O.a is a client driven association. O.a is a team with full of dreams and energy having a mission to accomplish. O.a provides IT solutions to make life easier of our clients with passion, hard work and transparency. Giving O.a the name, a presence, we always aimed to build a win-win scenario while serving our clients. O.a follows pragmatic approach to fight against dynamic problems of the users. Believe in O.a to pave a path with trust throughout the production lifecycle of your dream.</p>
-            <h2 class="tagline"> <strong>Lets Make a Story...</strong> </h2>
-        </div>
-    </div>
+		<div class="col-md-10 col-md-offset-1">
+			<p style="text-align:justify;">O.a is a client driven association. O.a is a team with full of dreams and energy having a mission to accomplish. O.a provides IT solutions to make life easier of our clients with passion, hard work and transparency. Giving O.a the name, a presence, we always aimed to build a win-win scenario while serving our clients. O.a follows pragmatic approach to fight against dynamic problems of the users. Believe in O.a to pave a path with trust throughout the production lifecycle of your dream.</p>
+			<h2 class="tagline"> <strong>Lets Make a Story...</strong> </h2>
+		</div>
+	</div>
 </div>
 </div>
+@include('services')
+@include('client')
+<!-- Contact Section Starts -->
+@include('contact')
+@endsection
 <!-- Our Team Section Starts -->
 <!-- <div class="heading-section text-center">
 		<h2>Our Team</h2>
@@ -77,43 +82,8 @@
 </div>-->
 <!-- Our Team Section ends -->
 <!-- Services Starts -->
-<div id="fh5co-services-section">
-    <div class="container fadeIn">
-        <div class="heading-section text-center">
-            <h2>Our Services</h2>
-        </div>
-        <div id="fh5co-services-section">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <div class="services-grid">
-                            <i class="icon-laptop"></i>
-                            <h3>Software Development</h3>
-                            <p>We love bringing our concepts to life using a variety of languages and platforms. We deliver a final product that prioritizes maintainability.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="services-grid">
-                            <i class="icon-html-five2"></i>
-                            <h3>Web Development</h3>
-                            <p>Maintaining web design principles and best practices, we design & develop aesthetic websites for you while having a business objective in mind.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="services-grid">
-                            <i class="icon-mobile"></i>
-                            <h3>Mobile Optimization</h3>
-                            <p>Mobile currently accounts for half of all global web pages served and this number is increasing. We can build fully responsive websites for you</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="services-grid">
-                            <i class="icon-stats-bars2"></i>
-                            <h3>Digital Marketing</h3>
-                            <p>Our senior strategy consultants can help you refine your target market and their needs, clearly articulate your value proposition, and then identify the right marketing channels to reach your target customers.</p>
-                        </div>
-                    </div>
 
+<<<<<<< HEAD
                     <div class="col-md-4">
                         <div class="services-grid">
                             <i class="icon-gears"></i>
@@ -399,6 +369,8 @@
         </div>
     </div>
 </div>
+=======
+>>>>>>> 6480207539f230cdc20d7ef929ceb3bfd6a686d8
 <!-- Contact Section ends -->
 <!-- end fh5co-featured-work-section -->
 <!-- pore lagbe
@@ -432,4 +404,3 @@
 <!-- end: fh5co-blog-section -->
 <!-- end: fh5co-parallax -->
 <!-- Home -->
-@endsection 

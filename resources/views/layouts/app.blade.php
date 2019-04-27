@@ -48,7 +48,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<!-- or -->
 		<!-- Modernizr JS -->
-		<script src="js/modernizr-2.6.2.min.js"></script>
+		<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 		<!-- FOR IE9 below -->
 		<!--[if lt IE 9]>
 		<script src="js/respond.min.js"></script>
@@ -66,6 +66,7 @@
 		@include('inc.footer')
 
 		<!-- jQuery -->
+<<<<<<< HEAD
 		<script src="{{ asset('/js/jquery.min.js') }}"></script>
 		<!-- jQuery Easing -->
 		<script src="{{ asset('/js/jquery.easing.1.3.js') }}"></script>
@@ -84,5 +85,25 @@
 
 		{{-- js for scolling effect --}}
 		<script src="{{ asset('/js/style.js') }}"></script>
+=======
+		<script src="{{ asset('js/jquery.min.js') }}"></script>
+		<!-- jQuery Easing -->
+		<script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
+		<!-- Bootstrap -->
+		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+		<!-- Waypoints -->
+		<script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
+		<!-- Owl carousel -->
+		<script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+		<!-- Stellar -->
+		<script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
+
+		<!-- Main JS (Do not remove) -->
+		<script src="{{ asset('js/main.js') }}"></script>
+		<script src="{{ asset('js/hover.js') }}"></script>
+
+		{{-- js for scolling effect --}}
+		<script src="{{ asset('js/style.js') }}"></script>
+>>>>>>> 6480207539f230cdc20d7ef929ceb3bfd6a686d8
 	</body>
 </html>

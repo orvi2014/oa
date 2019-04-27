@@ -201,13 +201,11 @@ header #fh5co-main-nav > ul li a {
     position: relative;
     font-weight: 400;
 }
-
 .headerNav {
     padding: 10px 16px;
-    background: rgb(245, 137, 37);
+    background: #000;
     color: #f1f1f1;
 }
-
 .sticky {
     position: fixed;
     top: 0;
@@ -220,11 +218,9 @@ header #fh5co-main-nav > ul li a {
     display: inline;
     margin: 0;
 }
-@media screen and (max-width: 768px) {
 .dynamicText_container {
     display: flex !important;
     justify-content: center;
-}
 }
 .word-slider {
     height: 1.2em;
@@ -1087,12 +1083,16 @@ input[type="text"] {
     #fh5co-intro-section h2 {
         font-size: 30px;
     }
-    .headerNav {
-        padding: 10px 16px;
-        background: rgb(245, 137, 37);
-        color: #f1f1f1;
+    header #fh5co-main-nav > ul li {
+
+        list-style: none;
+        display: inline-block;
+        margin-left: 40px;
+        margin-bottom: 0%;
+        font-size: 18px;
+    }
 }
-}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     #footer p:last-child {
@@ -1104,12 +1104,14 @@ input[type="text"] {
     #fh5co-intro-section h2 {
         font-size: 30px;
     }
-    .headerNav {
-        padding: 10px 16px;
-        background: rgb(245, 137, 37);
-        color: #f1f1f1;
-    
-}
+    header #fh5co-main-nav > ul li {
+
+        list-style: none;
+        display: inline-block;
+        margin-left: 40px;
+        margin-bottom: 0%;
+        font-size: 18px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -1120,15 +1122,13 @@ input[type="text"] {
     #fh5co-intro-section h2 {
         font-size: 40px;
     }
-    .headerNav {
-        padding: 10px 16px;
-        background: rgb(245, 137, 37);
-        color: #f1f1f1;
-}
+    
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+ 
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
