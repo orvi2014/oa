@@ -333,27 +333,16 @@
                 <h2>Clients</h2>
             </div>
             <div class="owl-carousel owl-carousel2">
-                <div class="item">
-                    <!-- <a href="#" class="image-popup"> -->
-                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{ url('public/img/square_banner.jpg') }}" alt="image"/>
-                    <!-- </a> -->
-                   
-                </div>
-                <div class="item">
-                    <!-- <a href="#" class="image-popup"> -->
-                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{url('/img/army.jpg')}}" alt="image"/>
-                    <!-- </a> -->
-                </div>
-                <div class="item">
-                    <!-- <a href="#" class="image-popup"> -->
-                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{url('public/img/shahmiran_logo.png')}}" alt="image"/>
-                    <!-- </a> -->
-                </div>
-                <div class="item">
-                    <!-- <a href="#" class="image-popup"> -->
-                    <img style="height: 100%; width: 80%; object-fit: contain" src="{{url('public/img/meridian_logo.jpeg')}}" alt="image"/>
-                    <!-- </a> -->
-                </div>
+			<div class="customer-logos">
+  			<div class="slide"><img src="https://www.solodev.com/assets/carousel/image1.png"></div>
+  			<div class="slide"><img src="https://www.solodev.com/assets/carousel/image2.png"></div>
+  			<div class="slide"><img src="https://www.solodev.com/assets/carousel/image3.png"></div>
+  			<div class="slide"><img src="https://www.solodev.com/assets/carousel/image4.png"></div>
+  			<div class="slide"><img src="https://www.solodev.com/assets/carousel/image5.png"></div>
+  			<div class="slide"><img src="https://www.solodev.com/assets/carousel/image6.png"></div>
+  			<div class="slide"><img src="https://www.solodev.com/assets/carousel/image7.png"></div>
+  			<div class="slide"><img src="https://www.solodev.com/assets/carousel/image8.png"></div>
+			</div>
             </div>
         </div>
     </div>
