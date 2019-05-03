@@ -203,7 +203,7 @@ header #fh5co-main-nav > ul li a {
 }
 .headerNav {
     padding: 10px 16px;
-    background: #000;
+    background: #f47d42;
     color: #f1f1f1;
 }
 .sticky {
@@ -1121,6 +1121,14 @@ input[type="text"] {
     }
     #fh5co-intro-section h2 {
         font-size: 40px;
+    }
+    header #fh5co-main-nav > ul li {
+
+        list-style: none;
+        display: inline-block;
+        margin-left: 40px;
+        margin-bottom: 0%;
+        font-size: 18px;
     }
     
 }

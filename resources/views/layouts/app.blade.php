@@ -40,12 +40,18 @@
 		<link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
 
 		<link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
+		<link rel="stylesheet" href="{{ asset('css/infinite-slider.css') }}">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!--scripts for client logo slider -->
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 		<!-- or -->
 		<!-- Modernizr JS -->
 		<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
@@ -77,12 +83,12 @@
 		<script src="{{ asset('js/owl.carousel.min.js') }}"></script>
 		<!-- Stellar -->
 		<script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
-
 		<!-- Main JS (Do not remove) -->
 		<script src="{{ asset('js/main.js') }}"></script>
 		<script src="{{ asset('js/hover.js') }}"></script>
 
 		{{-- js for scolling effect --}}
 		<script src="{{ asset('js/style.js') }}"></script>
+		<script src="{{ asset('js/carousel.js') }}"></script>
 	</body>
 </html>

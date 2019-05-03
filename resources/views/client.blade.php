@@ -4,22 +4,19 @@
             <h2>Clients</h2>
         </div>
         <div class="owl-carousel owl-carousel2">
-            <div class="item">
-                <!-- <a href="#" class="image-popup"> -->
-                <img style="height: 80%; width: 60%; object-fit: contain" src="{{ url('/img/square_banner.jpg') }}" alt="image" />
-                <!-- </a> -->
+        <div class="container">
+  <section class="customer-logos slider">
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image1.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image2.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image3.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image4.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image5.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image6.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image7.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image8.png"></div>
 
-            </div>
-            <div class="item">
-                <!-- <a href="#" class="image-popup"> -->
-                <img style="height: 80%; width: 60%; object-fit: contain" src="{{url('/img/army.jpg')}}" alt="image" />
-                <!-- </a> -->
-            </div>
-            <div class="item">
-                <!-- <a href="#" class="image-popup"> -->
-                <img style="height: 80%; width: 60%; object-fit: contain" src="{{url('/img/shahmiran_logo.png')}}" alt="image" />
-                <!-- </a> -->
-            </div>
+  </section>
+</div>
         </div>
     </div>
 </div>

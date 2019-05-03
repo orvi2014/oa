@@ -43,7 +43,7 @@
 			<div class="col-md-6 col-sm-6">
 				<div class="fh5co-grid-work">
 					<div class="work-holder">
-						<a href="#"><img src="{{url('/img/library.png')}}" alt="Work"></a>
+						<a href="#"><img src="{{url('/img/library.jpg')}}" alt="Work"></a>
 						<a href="#" class="inner-overlay inner-overlay-2"><i class="glyphicon glyphicon-search"></i> Edit here</a>
 					</div>
 					<div class="desc">
