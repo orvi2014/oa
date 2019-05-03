@@ -214,21 +214,13 @@ header #fh5co-main-nav > ul li a {
     width: 100%;
     z-index: 10000000;
 }
-.dynamicText {
-    display: inline;
-    margin: 0;
-}
-.dynamicText_container {
-    display: flex !important;
-    justify-content: center;
-}
+
 .word-slider {
     height: 1.2em;
     line-height: 1.2em;
-    margin: 0 0.5em;
     overflow: hidden;
     list-style-type: none;
-    font-size: 75px;
+    font-size: 110px;
     color: #fc5a03;
     display: inline-block;
 }

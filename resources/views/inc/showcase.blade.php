@@ -6,18 +6,22 @@
 	</div>
 -------->
 <div id="fh5co-intro-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center dynamicText_container">
-					<h2 class="dynamicText">Simplicity is the best</h2>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" style="padding-top: 54px; padding-bottom: 58px;">
+				<div class="col-md-6" style="text-align: right; padding-right:0px">
+					<h2>Simplicity is the best</h2>
+				</div>
+				<div class="col-md-6" style="text-align: left;padding-left: 0px;margin-top: -26px;">
 					<ul class="word-slider">
-						<li>Engaging</li>
-						<li>Delightful</li>
-						<li>Friendly</li>
-						<li>Engaging</li>
+						<li>Design</li>
+						<li>Solution</li>
+						<li>Motivation</li>
+						<li></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 <!-- end fh5co-intro-section -->
