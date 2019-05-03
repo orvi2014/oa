@@ -30,20 +30,20 @@
 
 		<!-- Animate.css -->
 		
-		<link rel="stylesheet" href="{{ URL::asset('css/animate.css') }}">
+		<link rel="stylesheet" href="{{ url('css/animate.css') }}">
 		<!-- Icomoon Icon Fonts-->
-		<link rel="stylesheet" href="{{ URL::asset('css/icomoon.css') }}">
+		<link rel="stylesheet" href="{{ url('css/icomoon.css') }}">
 		<!-- Bootstrap  -->
-		<link rel="stylesheet" href="{{ URL::asset('css/bootstrap.css') }}">
+		<link rel="stylesheet" href="{{ url('css/bootstrap.css') }}">
 		<!-- Owl Carousel -->
-		<link rel="stylesheet" href="{{ URL::asset('css/owl.carousel.min.css') }}">
-		<link rel="stylesheet" href="{{ URL::asset('css/owl.theme.default.min.css') }}">
+		<link rel="stylesheet" href="{{ url('css/owl.carousel.min.css') }}">
+		<link rel="stylesheet" href="{{ url('css/owl.theme.default.min.css') }}">
 
-		<link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
+		<link rel="stylesheet" href="{{ url('css/style.css') }}">
 		
 		<!-- or -->
 		<!-- Modernizr JS -->
-		<script src="{{URL::asset('js/modernizr-2.6.2.min.js')}}"></script>
+		<script src="{{url('js/modernizr-2.6.2.min.js')}}"></script>
 		<!-- FOR IE9 below -->
 		<!--[if lt IE 9]>
 		<script src="js/respond.min.js"></script>
