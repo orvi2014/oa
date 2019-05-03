@@ -1,4 +1,4 @@
-<header>
+<header style= "padding-top: 0;">
 		<div class="container text-center">
 			<div class="fh5co-navbar-brand">
 				<a class="fh5co-logo" href="index.html">O.a!</a>

@@ -30,25 +30,20 @@
 
 		<!-- Animate.css -->
 		
-		<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
+		<link rel="stylesheet" href="{{ URL::asset('css/animate.css') }}">
 		<!-- Icomoon Icon Fonts-->
-		<link rel="stylesheet" href="{{ asset('css/icomoon.css') }}">
+		<link rel="stylesheet" href="{{ URL::asset('css/icomoon.css') }}">
 		<!-- Bootstrap  -->
-		<link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+		<link rel="stylesheet" href="{{ URL::asset('css/bootstrap.css') }}">
 		<!-- Owl Carousel -->
-		<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
+		<link rel="stylesheet" href="{{ URL::asset('css/owl.carousel.min.css') }}">
+		<link rel="stylesheet" href="{{ URL::asset('css/owl.theme.default.min.css') }}">
 
-		<link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
+		
 		<!-- or -->
 		<!-- Modernizr JS -->
-		<script src="js/modernizr-2.6.2.min.js"></script>
+		<script src="{{URL::asset('js/modernizr-2.6.2.min.js')}}"></script>
 		<!-- FOR IE9 below -->
 		<!--[if lt IE 9]>
 		<script src="js/respond.min.js"></script>
@@ -58,7 +53,6 @@
 	</head>
 	<body>
 		@include('inc.navbar')
-			
 			@if(Request::is('/'))
         		@include ('inc.showcase')
       		@endif
@@ -66,23 +60,23 @@
 		@include('inc.footer')
 
 		<!-- jQuery -->
-		<script src="{{ asset('public/js/jquery.min.js') }}"></script>
+		<script src="{{ URL::asset('js/jquery.min.js') }}"></script>
 		<!-- jQuery Easing -->
-		<script src="{{ asset('public/js/jquery.easing.1.3.js') }}"></script>
+		<script src="{{ URL::asset('js/jquery.easing.1.3.js') }}"></script>
 		<!-- Bootstrap -->
-		<script src="{{ asset('public/js/bootstrap.min.js') }}"></script>
+		<script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
 		<!-- Waypoints -->
-		<script src="{{ asset('public/js/jquery.waypoints.min.js') }}"></script>
+		<script src="{{ URL::asset('js/jquery.waypoints.min.js') }}"></script>
 		<!-- Owl carousel -->
-		<script src="{{ asset('public/js/owl.carousel.min.js') }}"></script>
+		<script src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
 		<!-- Stellar -->
-		<script src="{{ asset('public/js/jquery.stellar.min.js') }}"></script>
+		<script src="{{ URL::asset('js/jquery.stellar.min.js') }}"></script>
 
 		<!-- Main JS (Do not remove) -->
-		<script src="{{ asset('public/js/main.js') }}"></script>
-		<script src="{{ asset('public/js/hover.js') }}"></script>
+		<script src="{{ URL::asset('js/main.js') }}"></script>
+		<script src="{{ URL::asset('js/hover.js') }}"></script>
 
 		{{-- js for scolling effect --}}
-		<script src="{{ asset('public/js/style.js') }}"></script>
+		<script src="{{ URL::asset('js/style.js') }}"></script>
 	</body>
 </html>

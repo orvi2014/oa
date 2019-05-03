@@ -214,21 +214,13 @@ header #fh5co-main-nav > ul li a {
     width: 100%;
     z-index: 10000000;
 }
-.dynamicText {
-    display: inline;
-    margin: 0;
-}
-.dynamicText_container {
-    display: flex !important;
-    justify-content: center;
-}
+
 .word-slider {
     height: 1.2em;
     line-height: 1.2em;
-    margin: 0 0.5em;
     overflow: hidden;
     list-style-type: none;
-    font-size: 75px;
+    font-size: 110px;
     color: #fc5a03;
     display: inline-block;
 }
@@ -1083,6 +1075,14 @@ input[type="text"] {
     #fh5co-intro-section h2 {
         font-size: 30px;
     }
+    header #fh5co-main-nav > ul li {
+
+        list-style: none;
+        display: inline-block;
+        margin-left: 40px;
+        margin-bottom: 0%;
+        font-size: 18px;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -1096,6 +1096,14 @@ input[type="text"] {
     #fh5co-intro-section h2 {
         font-size: 30px;
     }
+    header #fh5co-main-nav > ul li {
+
+        list-style: none;
+        display: inline-block;
+        margin-left: 40px;
+        margin-bottom: 0%;
+        font-size: 18px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -1106,10 +1114,13 @@ input[type="text"] {
     #fh5co-intro-section h2 {
         font-size: 40px;
     }
+    
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+ 
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
