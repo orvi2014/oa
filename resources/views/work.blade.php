@@ -12,6 +12,9 @@
 						<a data-toggle="modal" data-target="#card1modal" class="inner-overlay"><i class="glyphicon glyphicon-plus"></i></a>
 					</div>
 
+
+
+
 					<!-- Modal
 					<div class="modal fade" id="card1modal" tabindex="1" role="dialog">
 						<div class="modal-dialog modal-dialog-centered">
@@ -44,7 +47,7 @@
 			<div class="col-md-6 col-sm-6">
 				<div class="fh5co-grid-work">
 					<div class="work-holder">
-						<a href="#"><img src="{{url('/img/library.png')}}" alt="Work"></a>
+						<a href="#"><img src="{{url('/img/library.PNG')}}" alt="Work"></a>
 						<a href="#" class="inner-overlay inner-overlay-2"><i class="glyphicon glyphicon-plus"></i> Edit here</a>
 					</div>
 					<div class="desc">

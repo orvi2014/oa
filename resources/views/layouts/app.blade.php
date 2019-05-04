@@ -30,20 +30,20 @@
 
 		<!-- Animate.css -->
 		
-		<link rel="stylesheet" href="{{ URL::asset('css/animate.css') }}">
+		<link rel="stylesheet" href="css/animate.css">
 		<!-- Icomoon Icon Fonts-->
-		<link rel="stylesheet" href="{{ URL::asset('css/icomoon.css') }}">
+		<link rel="stylesheet" href="css/icomoon.css">
 		<!-- Bootstrap  -->
-		<link rel="stylesheet" href="{{ URL::asset('css/bootstrap.css') }}">
+		<link rel="stylesheet" href="css/bootstrap.css">
 		<!-- Owl Carousel -->
-		<link rel="stylesheet" href="{{ URL::asset('css/owl.carousel.min.css') }}">
-		<link rel="stylesheet" href="{{ URL::asset('css/owl.theme.default.min.css') }}">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-		<link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
+		<link rel="stylesheet" href="css/style.css">
 		
 		<!-- or -->
 		<!-- Modernizr JS -->
-		<script src="{{URL::asset('js/modernizr-2.6.2.min.js')}}"></script>
+		<script src="js/modernizr-2.6.2.min.js"></script>
 		<!-- FOR IE9 below -->
 		<!--[if lt IE 9]>
 		<script src="js/respond.min.js"></script>
@@ -60,23 +60,23 @@
 		@include('inc.footer')
 
 		<!-- jQuery -->
-		<script src="{{ URL::asset('js/jquery.min.js') }}"></script>
+		<script src="js/jquery.min.js"></script>
 		<!-- jQuery Easing -->
-		<script src="{{ URL::asset('js/jquery.easing.1.3.js') }}"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
 		<!-- Bootstrap -->
-		<script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<!-- Waypoints -->
-		<script src="{{ URL::asset('js/jquery.waypoints.min.js') }}"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
 		<!-- Owl carousel -->
-		<script src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
+		<script src="js/owl.carousel.min.js"></script>
 		<!-- Stellar -->
-		<script src="{{ URL::asset('js/jquery.stellar.min.js') }}"></script>
+		<script src="js/jquery.stellar.min.js"></script>
 
 		<!-- Main JS (Do not remove) -->
-		<script src="{{ URL::asset('js/main.js') }}"></script>
-		<script src="{{ URL::asset('js/hover.js') }}"></script>
+		<script src="js/main.js"></script>
+		<script src="js/hover.js"></script>
 
 		{{-- js for scolling effect --}}
-		<script src="{{ URL::asset('js/style.js') }}"></script>
+		<script src="js/style.js"></script>
 	</body>
 </html>
