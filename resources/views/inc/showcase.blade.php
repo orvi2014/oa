@@ -8,11 +8,11 @@
 <div id="fh5co-intro-section">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12" style="padding-top: 54px; padding-bottom: 58px;">
-				<div class="col-md-6" style="text-align: right; padding-right:0px">
+			<div class="col-md-12" id= "showcase-container">
+				<div class="col-md-6" id="sentence">
 					<h2>Simplicity is the best</h2>
 				</div>
-				<div class="col-md-6" style="text-align: left;padding-left: 0px;margin-top: -26px;">
+				<div class="col-md-6" id="word-slider-container">
 					<ul class="word-slider">
 						<li>Design</li>
 						<li>Solution</li>

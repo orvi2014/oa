@@ -225,7 +225,6 @@ header #fh5co-main-nav > ul li a {
     display: inline-block;
 }
 .word-slider > li {
-    text-align: center;
     -webkit-animation: word-slider 8s ease-in-out infinite;
     -moz-animation: word-slider 8s ease-in-out infinite;
     -o-animation: word-slider 8s ease-in-out infinite;
@@ -1060,6 +1059,19 @@ input[type="text"] {
     text-transform: uppercase;
     margin-top: 50px;
 }
+#showcase-container{
+    padding-top: 54px; 
+    padding-bottom: 58px;
+}
+#sentence{
+    text-align: right; 
+    padding-right:0px;
+}
+#word-slider-container{
+    text-align: left;
+    padding-left: 0px;
+    margin-top: -26px;
+}
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -1071,6 +1083,18 @@ input[type="text"] {
     }  
     .word-slider {
         font-size: 40px;
+    }
+    #sentence{
+        text-align: center;
+    }
+    #word-slider-container{
+        text-align: center;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+    #showcase-container{
+        padding-top: 25px; 
+        padding-bottom: 29px;
     }
     #fh5co-intro-section h2 {
         font-size: 30px;
@@ -1091,7 +1115,22 @@ input[type="text"] {
         font-size: 12px;
     }
     .word-slider {
-        font-size: 40px;
+        font-size: 50px;
+    }
+    #sentence{
+        text-align: right;
+        font-size: 40px; 
+        float: left;
+        padding-left: 48px;
+    }
+    #word-slider-container{
+        float: left;
+        text-align: left;
+      
+    }
+    #word-slider-container > ul{
+        margin-top: 21px;
+        padding-left: 14px;
     }
     #fh5co-intro-section h2 {
         font-size: 30px;
@@ -1110,6 +1149,15 @@ input[type="text"] {
 @media (min-width: 768px) and (max-width: 991.98px) {
     .word-slider {
         font-size: 50px;
+    }
+    #sentence{
+        text-align: right;
+        font-size: 40px; 
+        float: left;
+        padding-left: 43px;
+    }
+    #word-slider-container{
+        float: left;
     }
     #fh5co-intro-section h2 {
         font-size: 40px;
