@@ -17,7 +17,6 @@
 						<li>Design</li>
 						<li>Solution</li>
 						<li>Motivation</li>
-						<li></li>
 					</ul>
 				</div>
 			</div>
