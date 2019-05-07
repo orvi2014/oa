@@ -486,13 +486,6 @@ header #fh5co-main-nav > ul li:first-child {
 .owl-theme .owl-dots .owl-dot:hover span {
     background: #fff;
 }
-
-.item {
-    position: relative;
-    margin-left: 10px;
-    text-align: left;
-    margin-left: 50px;
-}
 .item .pop-up-overlay {
     position: absolute;
     top: 0;
@@ -1078,8 +1071,8 @@ input[type="text"] {
         padding-bottom: 2.5em;
         padding-top: 0em;
     }
-    #fh5co-common-section{
-        padding-top: 2em; 
+    #fh5co-common-section {
+        padding-top: 2em;
     }
     header .headerNav {
         display: none;
@@ -1118,22 +1111,24 @@ input[type="text"] {
         margin-bottom: 0%;
         font-size: 18px;
     }
-    .item {
-        position: relative;
-        margin-left: 10px;
-        text-align: left;
-        margin-left: 50px;
+
+    header, #fh5co-intro-section{
+        padding-bottom: 4em;
     }
-    header,
-#fh5co-intro-section,
-#fh5co-services-section,
-#fh5co-featured-work-section,
-#fh5co-common-section,
-#fh5co-blog-section,
-#fh5co-contact-section,
-#fh5co-work-section {
-    padding-top: 0em;
-}
+    .heading-section {
+        margin-bottom: 1em;
+    }
+    .tagline {
+        margin-bottom: 2em;
+    }
+    #fh5co-services-section,
+    #fh5co-featured-work-section,
+    #fh5co-common-section,
+    #fh5co-blog-section,
+    #fh5co-contact-section,
+    #fh5co-work-section {
+        padding-top: 0em;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -1147,13 +1142,13 @@ input[type="text"] {
     header .fh5co-navbar-brand {
         padding-bottom: 0;
     }
-    #showcase-container{
+    #showcase-container {
         padding-bottom: 48px;
     }
-    #fh5co-intro-section{
-        padding-top:0;
+    #fh5co-intro-section {
+        padding-top: 0;
     }
-    #fh5co-common-section{
+    #fh5co-common-section {
         padding-top: 0;
     }
     #sentence {
@@ -1180,15 +1175,16 @@ input[type="text"] {
         margin-bottom: 0%;
         font-size: 18px;
     }
-    .item {
-        position: relative;
-        margin-left: 10px;
-        text-align: left;
-        margin-left: 50px;
-        padding-left: 30px;
+    header, #fh5co-intro-section{
+        padding-bottom: 4em;
     }
-    header,
-    #fh5co-intro-section,
+    .heading-section {
+        margin-bottom: 0;
+    }
+    .tagline {
+        margin-bottom: 2em;
+    }
+  
     #fh5co-services-section,
     #fh5co-featured-work-section,
     #fh5co-common-section,
@@ -1212,6 +1208,7 @@ input[type="text"] {
     }
     #word-slider-container {
         float: left;
+        margin-top: 2px;
     }
     #fh5co-intro-section h2 {
         font-size: 40px;
