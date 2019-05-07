@@ -151,7 +151,7 @@ header,
 #fh5co-blog-section,
 #fh5co-contact-section,
 #fh5co-work-section {
-    padding-top: 4em;
+    padding-top: 0em;
 }
 
 header {
@@ -496,6 +496,9 @@ header #fh5co-main-nav > ul li:first-child {
 
 .item {
     position: relative;
+    margin-left: 10px;
+    text-align: left;
+    margin-left: 50px;
 }
 .item .pop-up-overlay {
     position: absolute;
@@ -1107,6 +1110,22 @@ input[type="text"] {
         margin-bottom: 0%;
         font-size: 18px;
     }
+    .item {
+        position: relative;
+        margin-left: 10px;
+        text-align: left;
+        margin-left: 50px;
+    }
+    header,
+#fh5co-intro-section,
+#fh5co-services-section,
+#fh5co-featured-work-section,
+#fh5co-common-section,
+#fh5co-blog-section,
+#fh5co-contact-section,
+#fh5co-work-section {
+    padding-top: 0em;
+}
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -1142,6 +1161,23 @@ input[type="text"] {
         margin-left: 40px;
         margin-bottom: 0%;
         font-size: 18px;
+    }
+    .item {
+        position: relative;
+        margin-left: 10px;
+        text-align: left;
+        margin-left: 50px;
+        padding-left: 30px;
+    }
+    header,
+    #fh5co-intro-section,
+    #fh5co-services-section,
+    #fh5co-featured-work-section,
+    #fh5co-common-section,
+    #fh5co-blog-section,
+    #fh5co-contact-section,
+    #fh5co-work-section {
+        padding-top: 0em;
     }
 }
 
