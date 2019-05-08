@@ -1049,8 +1049,8 @@ input[type="text"] {
     margin-top: 50px;
 }
 #showcase-container {
-    padding-top: 54px;
-    padding-bottom: 58px;
+    padding-top: 6em;
+    padding-bottom: 7em;
 }
 #sentence {
     text-align: right;
