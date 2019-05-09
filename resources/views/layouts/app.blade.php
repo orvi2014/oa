@@ -38,7 +38,6 @@
 		<!-- Owl Carousel -->
 		<link rel="stylesheet" href="css/owl.carousel.min.css">
 		<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
 		<link rel="stylesheet" href="css/style.css">
 		
 		<!-- or -->
@@ -78,5 +77,13 @@
 
 		{{-- js for scolling effect --}}
 		<script src="js/style.js"></script>
+		<script>
+			$(function() {
+				$("#read-more").click(function() {
+					$("#read-more-content").show(500);
+					$("#read-more").hide();
+				});
+			});
+		</script>
 	</body>
 </html>

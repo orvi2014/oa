@@ -1,10 +1,5 @@
 <header>
-
 	<div class="container text-center">
-		<a href="#fh5co-main-nav" id="fh5co-main-nav-toggle" class="fh5co-main-nav-toggle" aria-label="Open Oa menu">
-			<span class="sr-only">Open main menu</span>
-			<span class="fa fa-bars" aria-hidden="true"></span>
-		</a>
 		<div class="fh5co-navbar-brand text-center">
 			<a class="fh5co-logo" href="index.html">O.a!</a>
 		</div>
