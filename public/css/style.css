@@ -1082,8 +1082,23 @@ input[type="text"] {
         font-size: 12px;
     }
     #footer p {
-      font-size: 16px;
-    }  
+        font-size: 16px;
+        margin-left: 9px;
+    } 
+    .fh5co-border-line {
+        padding: 0 0 4px 0;
+    }
+    .footer_holder {
+        /* display: flex; */
+        justify-content: space-between;
+        /* display: inherit; */
+        padding-top: 0px;
+        /* padding-left: 139px; */
+        margin-left: 276px;
+        display: block;
+        margin-left: 80px;
+        /* align-items: stretch; */
+    }
     .word-slider {
         font-size: 40px;
     }
@@ -1126,6 +1141,7 @@ input[type="text"] {
 #fh5co-work-section {
     padding-top: 0em;
 }
+
 }
 
 /* // Small devices (landscape phones, 576px and up) */
