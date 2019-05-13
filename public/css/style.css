@@ -1075,6 +1075,13 @@ input[type="text"] {
     padding-left: 0px;
     margin-top: -26px;
 }
+#read-more {
+    display: none;
+}
+.btn-info {
+    background-color: #fc5a03;
+    border-color: #fc5a03;
+}
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -1125,28 +1132,31 @@ input[type="text"] {
         margin-bottom: 0%;
         font-size: 18px;
     }
-    .item {
-        position: relative;
-        margin-left: 10px;
-        text-align: left;
-        margin-left: 50px;
-    }
-    header,
-#fh5co-intro-section,
-#fh5co-services-section,
-#fh5co-featured-work-section,
-#fh5co-common-section,
-#fh5co-blog-section,
-#fh5co-contact-section,
-#fh5co-work-section {
-    padding-top: 0em;
-}
-.headerNav {
-    padding: 10px 16px;
-    background: #000;
-    color: #f1f1f1;
-}
 
+    header,
+    #fh5co-intro-section {
+        padding-bottom: 4em;
+    }
+    .heading-section {
+        margin-bottom: 1em;
+    }
+    .tagline {
+        margin-bottom: 2em;
+    }
+    #fh5co-services-section,
+    #fh5co-featured-work-section,
+    #fh5co-common-section,
+    #fh5co-blog-section,
+    #fh5co-contact-section,
+    #fh5co-work-section {
+        padding-top: 0em;
+    }
+    #read-more {
+        display: block;
+    }
+    #read-more-content {
+        display: none;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -1183,15 +1193,17 @@ input[type="text"] {
         margin-bottom: 0%;
         font-size: 18px;
     }
-    .item {
-        position: relative;
-        margin-left: 10px;
-        text-align: left;
-        margin-left: 50px;
-        padding-left: 30px;
-    }
     header,
-    #fh5co-intro-section,
+    #fh5co-intro-section {
+        padding-bottom: 4em;
+    }
+    .heading-section {
+        margin-bottom: 0;
+    }
+    .tagline {
+        margin-bottom: 2em;
+    }
+
     #fh5co-services-section,
     #fh5co-featured-work-section,
     #fh5co-common-section,
@@ -1199,6 +1211,12 @@ input[type="text"] {
     #fh5co-contact-section,
     #fh5co-work-section {
         padding-top: 0em;
+    }
+    #read-more {
+        display: block;
+    }
+    #read-more-content {
+        display: none;
     }
 }
 
@@ -1219,7 +1237,12 @@ input[type="text"] {
     #fh5co-intro-section h2 {
         font-size: 40px;
     }
-    
+    #read-more {
+        display: block;
+    }
+    #read-more-content {
+        display: none;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
